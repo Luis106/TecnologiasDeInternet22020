@@ -1,0 +1,47 @@
+.h1t {
+ font-family: Roboto, sans-serif;
+
+}
+p.Animacion{
+ font-family: Lucida Bright, sans-serif;
+
+
+}
+
+div{
+	background-color: rgb(240, 240, 240);
+	border-style:solid;
+	border-color: DodgerBlue;
+}
+img.header{
+	height: 70px; 
+	width: 70px;
+}
+img.backgroun{
+	height:100%;
+	 width: 100%;
+}
+img.cuadricula{
+	height: 250px;
+	 width: 250px;
+}
+div.portafolio{
+	border-color: #BE58FF;
+}
+div.service{
+	border-color: #FF58AA;
+}
+div.contact{
+	border-color: #F1FF58;
+}
+h1.list{
+	font-family: Roboto, sans-serif;
+}
+p.button{
+	style=" border-color:
+	DodgerBlue; border-style:solid;
+}
+
+html{
+ 	scroll-behavior: smooth;
+}
