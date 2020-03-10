@@ -4,13 +4,39 @@
 	<title></title>
 </head>
 <body>
-<script type="text/javascript">
-	console.log( 3 + 3 );
-	 var arr=['Piedra', 'Papel','Tijera'];
-	 var i =Math.floor((Math.random() * 3));
-	 console.log(arr[i])
 
 
-</script>
+	<div align = "center">
+		<img src="res/placeholder.png" alt="" height="400" width="400" id = "myImage">	<br>
+		<br>
+		<br>
+ 		<button type="button" onclick="piedra()" >Random</button>
+ 	</div>
+	
+
 </body>
 </html>
+
+<script type="text/javascript"  >
+	function piedra(){
+		var arr=['Piedra', 'Papel','Tijera'];
+		var i =Math.floor((Math.random() * 3));
+		console.log(arr[i])
+
+		document.getElementById("myImage").src = "res/placeholder.png";
+
+		if (arr[i] == 'Piedra'){
+			document.getElementById("myImage").src = "res/1.png";
+			console.log("Helo Pi")
+		}else if (arr[i] == 'Papel')
+		{
+			document.getElementById("myImage").src = "res/2.png";
+			console.log("Helo Pa")
+		}else if(arr[i] == 'Tijera')
+		{
+			document.getElementById("myImage").src = "res/3.png";
+			console.log("Helo Ti")
+		}
+}
+	 
+</script>
