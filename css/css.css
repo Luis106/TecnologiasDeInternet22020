@@ -8,10 +8,18 @@ p.Animacion{
 
 }
 
-div{
+div.n{
 	background-color: rgb(240, 240, 240);
 	border-style:solid;
 	border-color: DodgerBlue;
+}
+div{
+	
+	margin: auto;
+	width: 50%;
+	
+	padding: 10px;
+	
 }
 img.header{
 	height: 70px; 
@@ -38,8 +46,8 @@ h1.list{
 	font-family: Roboto, sans-serif;
 }
 p.button{
-	style=" border-color:
-	DodgerBlue; border-style:solid;
+	 border-color: DodgerBlue;
+	 border-style:solid;
 }
 
 html{

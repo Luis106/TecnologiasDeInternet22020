@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+</head>
+<body>
+    <div >
+        <h1>Convertir Grados Centígrados a Fahrenheit</h1>
+
+        <p> 
+        Centígrados 
+        <input type="number" id="Cen" name="Cen" >  
+                    
+        Fahrenheit           
+        <input type="number" id="fa" name="fa" ></p>
+        <button onclick="Conv()">Convertir</button>
+    </div>
+    
+
+</body>
+
+<script>
+  function Conv(){
+        var num = document.getElementById("Cen").value;
+
+               var res = (num * 1.8) + 32; 
+               document.getElementById("fa").value = res;
+                //window.alert(res);
+     }
+</script>
+</html>
