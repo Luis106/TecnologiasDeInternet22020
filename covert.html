@@ -14,7 +14,9 @@
                     
         Fahrenheit           
         <input type="number" id="fa" name="fa" ></p>
-        <button onclick="Conv()">Convertir</button>
+        
+        <button onclick="Conv()" id = "con">Convertir</button>   
+        <button onclick="Conv()" id = "con">Convertir</button>                                          
     </div>
     
 
@@ -26,7 +28,9 @@
 
                var res = (num * 1.8) + 32; 
                document.getElementById("fa").value = res;
-                //window.alert(res);
+               window.alert(`De centígrados a  fahrenheit es: ${res} `);
      }
+
+     
 </script>
 </html>
