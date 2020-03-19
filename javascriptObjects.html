@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+    </head>
+    <body>
+        <div>
+            <h1>JavaScript Objects</h1>
+            <p id = "Obj"> Sample</p>
+
+            <button onclick="Show('Nom')" id = "Nom">Nombre</button> 
+            <button onclick="Show('Ape')" id = "Ape">Apellido</button> 
+            <button onclick="Show('Eda')" id = "Eda">Edad</button> 
+            <button onclick="Show('Mat')" id = "Mat">Matricula</button> 
+        </div>
+          
+
+    </body>
+</html>
+<script>
+    myObj = { "Nombre":"Luis","Apellido":"Villalobos",
+              "Edad":18, "Matricula":8009 };
+
+              function Show(butt){
+               
+                  switch(butt){
+
+                      case 'Nom':
+                      document.getElementById("Obj").innerHTML = myObj.Nombre;
+                      break;
+
+                      case 'Ape':
+                      document.getElementById("Obj").innerHTML = myObj.Apellido;
+                      break;
+
+                      case 'Eda':
+                      document.getElementById("Obj").innerHTML = myObj.Edad;
+                      break;
+
+                      case 'Mat':
+                      document.getElementById("Obj").innerHTML = myObj.Matricula;
+                      break;
+
+                  }
+
+
+              }
+
+
+
+ 
+
+</script>
